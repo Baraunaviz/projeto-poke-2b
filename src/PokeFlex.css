@@ -1,7 +1,8 @@
-.PokeGrid {
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    background-color: rgb(242, 255, 0);
+.PokeFlex {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: red;
     width: 500px;
     height: 500px;
     justify-content: space-around;
@@ -13,3 +14,6 @@ img {
     width: 100px;
     height: 80px;
 }
+
+
+ 
